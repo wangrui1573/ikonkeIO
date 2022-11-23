@@ -48,6 +48,12 @@ sh ikonkeIO.sh --discover 广播地址
 示例如下：   
 ```
 sh ikonkeIO.sh --discover 192.168.88.255
+sh ikonkeIO.sh -C  mini_b 192.168.1.1 28-d9-00-83-00-00 "W2PI/WMp" getRelay
+sh ikonkeIO.sh -C  mini_b 192.168.1.1 28-d9-00-83-00-00 "W2PI/WMp" setRelay close
+sh ikonkeIO.sh -C  mini_b 192.168.1.1 28-d9-00-83-00-00 "W2PI/WMp" setRelay open
+
+
+
 broadcast address: 192.168.88.255, scan ikonke device.... 
 
 type: mini_b
